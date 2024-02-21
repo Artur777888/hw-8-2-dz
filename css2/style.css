@@ -1,0 +1,37 @@
+.root{
+    --red-color: #ff0000 ;
+    --yello-color: #ffe278 ;
+    --blue-color: #4f32de ;
+    --gren-color:#6ab128 ;
+    ---sky-color: #5a40df;
+
+}
+
+.table {
+    font-size: small;
+  }
+  
+  .table ul {
+    color: var(--red-color);
+    
+  }
+  
+  .table ul li:nth-child(1) {
+    color: var(--yello-color);
+  }
+  
+  .table ul li:nth-child(2) {
+    color: var(--blue-color);
+  }
+  
+  .table ul li:nth-child(3) {
+    color: var(--gren-color);
+  }
+  
+  .table ul li:nth-child(4) {
+    color: var(---sky-color);
+  }
+  
+  .tebleul li:nth-child(5) {
+    color: var(--yello-color);
+  }
